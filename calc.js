@@ -47,7 +47,6 @@ dizi.forEach(button =>
         }
         else if(e.target.innerHTML == '²')
         {   
-
             string = Number(string);
             string = string ** 2;
             input.value = string.toFixed(2);
@@ -94,8 +93,7 @@ document.addEventListener("keydown", (e) =>
     }
     else if (e.key == '/' || e.key == '*' 
             || e.key == '-' || e.key == '+' || e.key == '%')
-    {
-        
+    { 
         numb += e.key;
         preinput.innerHTML = numb;
         numb = "";
