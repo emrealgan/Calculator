@@ -1,0 +1,119 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html, body
+{   
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    display: flex;
+}
+.main
+{   
+    margin-top: 10rem;
+    margin-left: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    width: 15rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    background-color: rgba(131, 101, 65, 0.341);
+}
+.numbers
+{   
+    padding-top: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 12rem;
+    width: 18rem;
+    background-color: rgba(23, 15, 6, 0.267);
+}
+button
+{   
+    height: 1.6rem;
+    width: 1.6rem;
+    margin: 0.25rem;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background: transparent;
+}
+button:hover
+{
+    background-color: rgba(38, 230, 102, 0.508);
+}
+.space
+{   
+    color: beige;
+    margin: 1rem;
+    margin-top: 0;
+    height: 1.6rem;
+    width: 13rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: rgb(15, 15, 15);  
+}
+.pre
+{   
+    color: beige;
+    margin: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    height: 1rem;
+    width: 13rem;
+    font-size: 1rem;
+    text-align: right;
+    background-color: rgb(15, 15, 15);  
+}
+
+.db
+{
+    width: 3.2rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+}
+#eq
+{   
+    background-color: rgb(163, 173, 242);
+}
+#eq:hover
+{
+    background-color: rgb(31, 47, 168);
+}
+#²
+{
+    margin-left: 0.1rem;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+#√
+{
+    margin-left: 0.4rem;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+@media only screen and (max-width: 1000px) {
+    .main 
+    {
+        margin-top: 6rem;
+        margin-left: 24rem;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .main
+    {
+        margin-top: 4rem;
+        margin-left: 16rem; 
+    }
+  }
