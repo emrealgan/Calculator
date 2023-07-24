@@ -1,7 +1,7 @@
 let input = document.querySelector(".space");
 let buttons = document.querySelectorAll("button");
 let preinput = document.querySelector(".pre");
-
+ 
 let string ="";
 let numb = "";
 
