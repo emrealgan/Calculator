@@ -98,7 +98,6 @@ document.addEventListener("keydown", (e) =>
         preinput.innerHTML = numb;
         numb = "";
         input.value = numb;
-        
     }
     else if(e.key == '²')
     {   
