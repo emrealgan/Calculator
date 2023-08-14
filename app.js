@@ -31,7 +31,7 @@ dizi.forEach(button =>
             input.value = string;
         }
         else if (e.target.innerHTML == '/' || e.target.innerHTML == '*' 
-            || e.target.innerHTML == '-'|| e.target.innerHTML == '+' || e.target.innerHTML == '%')
+            || e.target.innerHTML == '-'|| e.target.innerHTML == '+')
         {
             if (string === "")
             {
