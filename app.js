@@ -38,7 +38,7 @@ dizi.forEach(button =>
               input.value = "0";
             }
             else
-            {
+            {  
               string += e.target.innerHTML;
               preinput.innerHTML = string;
               string = "";
@@ -92,8 +92,8 @@ document.addEventListener("keydown", (e) =>
         input.value = numb;
     }
     else if (e.key == '/' || e.key == '*' 
-            || e.key == '-' || e.key == '+' || e.key == '%')
-    { 
+            || e.key == '-' || e.key == '+')
+    {      
         numb += e.key;
         preinput.innerHTML = numb;
         numb = "";
@@ -119,7 +119,8 @@ document.addEventListener("keydown", (e) =>
     }
     else if( e.key == '0' || e.key == '1' || e.key == '2' || e.key == '3' || e.key == '4' 
     || e.key == '5' || e.key == '6' || e.key == '7' || e.key == '8' || e.key == '9' )
-    {
+    {   
+        string += e.key;
         numb += e.key;
         input.value = numb;
     }        
